@@ -474,3 +474,79 @@ CSS de áreas específicas
 .section-team--social a:hover {
     background-color: #B28756;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-sliders{
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.section-slide--slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-slide--avatar {
+    border-radius: 30px;
+}
+
+.section-slide--slidearea h2, h3 {
+    margin-bottom: 20px;
+}
+
+.section-slide--slidearea img{
+    margin-bottom: 30px;
+}
+
+.section-slide--slidearea p {
+    color: #999;
+    font-size: 14px;
+}
+
+.section-sliders-pointers {
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-sliders-pointers .pointer:hover,
+.section-sliders-pointers .pointer.active {
+    background-color: #B28756;
+}
+
+.section-sliders-pointers .pointer {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
